@@ -1,6 +1,7 @@
 vector<int> PostOrder(TreeNode * node)
 {
     vector<int> ans;
+    if(root == NULL) return ans;
     stack<TreeNode *> st1;
     stack<TreeNode *> st2;
     st1.push(root);
